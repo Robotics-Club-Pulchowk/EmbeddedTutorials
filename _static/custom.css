@@ -1,0 +1,10 @@
+/* Custom styles for Sphinx documentation */
+
+.padded-image {
+    display: block;
+    padding-bottom: 20px;
+}
+
+.left-green-border {
+    border-left: 4px solid green;
+}
