@@ -8,7 +8,7 @@
 
 project = 'Embedded Tutorials'
 copyright = '2024 - 2025, Robotics Club, Pulchowk Campus'
-author = 'Sagar Chaudhary, Kabita Shahu'
+author = 'SRobotics Club, Pulchowk Campus'
 release = '1.1.0'
 
 # -- General configuration ---------------------------------------------------
