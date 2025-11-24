@@ -8,7 +8,7 @@
 
 project = 'Embedded Tutorials'
 copyright = '2024 - 2025, Robotics Club, Pulchowk Campus'
-author = 'Sagar Chaudhary'
+author = 'Sagar Chaudhary, Kabita Shahu'
 release = '1.1.0'
 
 # -- General configuration ---------------------------------------------------
@@ -38,6 +38,7 @@ language = 'en'
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 html_logo = "_static/club-logo.svg"
+html_favicon = "_static/favicon.ico"
 
 html_context = {
     "display_github": True,
@@ -60,8 +61,6 @@ source_suffix = {
     '.txt': 'markdown',
     '.md': 'markdown',
 }
-
-issues_github_path = "sagar-bei031/EmbeddedTutorials"
 
 # -- Options for linkcode extension ------------------------------------------
 def linkcode_resolve(domain, info):
