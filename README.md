@@ -5,13 +5,13 @@
 
 ## Build
 
-```bash
+```
 # Create Virtual Environment
-python3 -m venv venv
-source ./venv/bin/acivate
+python3 -m venv .venv
+source .venv/bin/acivate
 
 # Install sphinx package and extensions
-pip3 install sphinx sphinx_rtd_theme myst-parser sphinx-copybutton sphinx-tabs
+pip3 install -r requirements.txt
 
 # Build html
 make html

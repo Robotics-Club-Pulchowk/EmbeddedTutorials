@@ -1,5 +1,8 @@
 build/
 .vscode/
-venv/
+.venv/
 *__pycache__/
+*.py[cod]
 *.out
+*.o
+*.exe
