@@ -25,6 +25,8 @@ extensions = [
     'sphinx_tabs.tabs',
 ]
 
+sphinx_tabs_valid_builders = ["linkcheck"]
+
 templates_path = ['_templates']
 exclude_patterns = [
      'intermediate_tutorial/files/**',  # Exclude all files in this directory
