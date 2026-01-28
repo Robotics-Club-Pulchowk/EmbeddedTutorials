@@ -3,7 +3,7 @@ name: Deploy Embedded Tutorials HTML
 on:
   push:
     branches:
-      - deploy
+      - main
 
 permissions:
   contents: write
